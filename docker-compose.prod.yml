@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  app:
+    container_name: matchmaking-front
+    build:
+      context: ..
+      dockerfile: Dockerfile.prod
+    restart: always
+    environment:
+      PORT: ${PORT}
+      DATABASE_URL: ${DATABASE_URL}
+      JWT_SECRET: ${JWT_SECRET}
+      PUBLIC_API_URL: ${API_URL}
+      PUBLIC_EXTERNAL_API_URL: ${EXTERNAL_API_URL}
+    ports:
+      - '8089:3000'
