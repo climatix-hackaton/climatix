@@ -12,7 +12,7 @@
 	};
 </script>
 
-<div class="absolute p-4 flex justify-between w-full items-center">
+<div class="p-4 flex justify-between w-full items-center">
   <p class="font-poppins-bold text-lg">{$user?.name}</p>
   <div on:click={onLogout} class="rotate-180 cursor-pointer">
     <Svg size={6} src="/icons/Logout.svg" />

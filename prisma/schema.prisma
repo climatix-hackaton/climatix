@@ -12,10 +12,27 @@ datasource db {
 }
 
 model User {
-  id        String   @id @default(cuid())
-  email     String   @unique
-  name      String
+  id    String @id @default(cuid())
+  email String @unique
+  name  String
+
+  coins Int @default(0)
+
+  upgrades Upgrade[]
+
   password  String
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
+}
+
+model Upgrade {
+  id String @id @default(cuid())
+
+  name String
+
+  level Int @default(0)
+
+  cost   Int
+  User   User   @relation(fields: [userId], references: [id])
+  userId String
 }

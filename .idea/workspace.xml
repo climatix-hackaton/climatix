@@ -4,13 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f82afc-d404-4291-bcc9-c8dbe0d6939c" name="Changes" comment="remove: some warning">
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/common/SecondayButton.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/icons/Logout.svg" afterDir="false" />
+    <list default="true" id="73f82afc-d404-4291-bcc9-c8dbe0d6939c" name="Changes" comment="add: navbar">
+      <change afterPath="$PROJECT_DIR$/src/components/common/SecondaryButton.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/helpers/auth.helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(protected)/+layout.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(protected)/+layout.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(protected)/play/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(protected)/upgrades/+page.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(protected)/upgrades/+page.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/api/upgrades/+server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/upgrade.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/icons/Arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/regions/rhone.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Navbar.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/PrimaryButton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/PrimaryButton.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SecondayButton.svelte" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/Svg.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Svg.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/server/jwt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/server/jwt.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/payload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/payload.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/(auth)/register/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(auth)/register/+page.server.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/auth.service.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,7 +91,7 @@
       <updated>1696245453502</updated>
       <workItem from="1696245454549" duration="2499000" />
       <workItem from="1696249484170" duration="344000" />
-      <workItem from="1696260693183" duration="7549000" />
+      <workItem from="1696260693183" duration="18361000" />
     </task>
     <task id="LOCAL-00001" summary="init: project">
       <option name="closed" value="true" />
@@ -99,7 +117,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696317518389</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add: navbar">
+      <option name="closed" value="true" />
+      <created>1696319507783</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696319507783</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +135,7 @@
     <MESSAGE value="init: project" />
     <MESSAGE value="add: register / login / tailwind / locals / user store" />
     <MESSAGE value="remove: some warning" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove: some warning" />
+    <MESSAGE value="add: navbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="add: navbar" />
   </component>
 </project>

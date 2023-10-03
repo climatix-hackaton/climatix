@@ -1,3 +1,5 @@
+import type { Upgrade } from '@prisma/client';
+
 export type LoginBodyPayload = {
 	email: string,
 	password: string
@@ -12,6 +14,10 @@ export type RegisterBodyPayload = {
 
 export type AuthResponseData = {
 	token: string
+}
+
+export type UpgradePayload = {
+	upgrades: Upgrade[]
 }
 
 export type JWTPayload = {

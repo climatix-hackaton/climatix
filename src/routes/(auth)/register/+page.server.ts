@@ -20,8 +20,6 @@ const register: Action = async ({ request, cookies }) => {
 		return fail(400, { internalError: response.internalError });
 	}
 
-	console.log(response.data.data!);
-
 	cookies.set(COOKEYS.JWT_TOKEN, response.data.data!.token, defaultCookiesOptions);
 	throw redirect(303, '/');
 };

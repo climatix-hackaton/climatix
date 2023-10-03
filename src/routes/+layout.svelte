@@ -1,12 +1,19 @@
 <script lang="ts">
-	import "@styles/app.css";
+	import '@styles/app.css';
 	import Navbar from '@components/Navbar.svelte';
 	import { page } from '$app/stores';
 
-	$: isAuthPage = $page.url.pathname === "/login" || $page.url.pathname === "/register";
+	const hideNavbar = [
+		'/play',
+		'/upgrades',
+		'/login',
+		'/register'
+	];
+
+	$: needToShowNavbar = hideNavbar.includes($page.url.pathname);
 </script>
 
-{#if !isAuthPage}
+{#if !needToShowNavbar}
   <Navbar />
 {/if}
 
