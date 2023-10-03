@@ -9,6 +9,10 @@
         min-height: 100vh;
     }
 
+    body {
+        min-height: 100vh;
+    }
+
     :root {
         --color-primary: #3D9B35;
         --color-secondary: #333399;
