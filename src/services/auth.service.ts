@@ -9,7 +9,7 @@ import type {
 	LoginBodyPayload,
 	RegisterBodyPayload
 } from '@models/payload';
-import type { ClimatixResponse, ClimatixResponseData } from '$lib/server/response';
+import type { ClimatixResponseData } from '$lib/server/response';
 
 const getUserByEmail = (email: string): Promise<User | null> => {
 	return prisma.user.findUnique({

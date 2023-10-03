@@ -1,7 +1,6 @@
 <script lang="ts">
 	import InputField from '@components/common/InputField.svelte';
 	import { INPUT } from '$lib/helpers/form.helper';
-	import type { FormFailure } from '$lib/server/response';
 </script>
 
 <InputField
