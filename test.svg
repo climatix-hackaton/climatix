@@ -1,7 +1,7 @@
 <svg version="1.1" y="0" xmlns="http://www.w3.org/2000/svg" x="0px"
-     viewBox="0 0 650 780" >
+     viewBox="0 0 250 200">
 
-    <path fill="#000000" opacity="1.000000" stroke="none"
+    <path transform="translate(-400, -450)" fill="#000000" opacity="1.000000" stroke="none"
           d="
 M486.077026,528.077637
 	C487.385986,529.585815 488.457031,531.454102 490.061829,532.514587
