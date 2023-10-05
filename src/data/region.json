@@ -1,0 +1,112 @@
+{
+  "regions": [
+    {
+      "name": "haut-de-france",
+      "population": 6008000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "ile-de-france",
+      "population": 12278000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "auvergne-rhone-alpes",
+      "population": 8262000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "nouvelle-aquitaine",
+      "population": 6066000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "paca",
+      "population": 5076000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "pays-de-la-loire",
+      "population": 3867000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "grand-est",
+      "population": 3867000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "bretagne",
+      "population": 3867000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "centre-val-de-loire",
+      "population": 2579000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "normandie",
+      "population": 3340000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "bourgogne-franche-comte",
+      "population": 2821000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    },
+    {
+      "name": "occitanie",
+      "population": 5982000,
+      "numberOfInfected": 0,
+      "numberOfDeath": 0,
+      "opacity": 0,
+      "percentDeath": 0,
+      "percentInfected": 0
+    }
+  ]
+}

@@ -5,7 +5,7 @@ import type { ClimatixResponseData } from '$lib/server/response';
 import type { UpgradePayload } from '@models/payload';
 import type { Upgrade } from '@prisma/client';
 
-const getUpgrades = (userId: string) => {
+const getUpgradesByUserId = (userId: string) => {
 	return prisma.upgrade.findMany({
 		where: { userId }
 	});
@@ -17,7 +17,8 @@ const getAllUpgrades = (token: string | undefined): Promise<AxiosResponse<Climat
 	});
 };
 
+
 export default {
-	getUpgrades,
-	getAllUpgrades
+	getUpgradesByUserId,
+	getAllUpgrades,
 };

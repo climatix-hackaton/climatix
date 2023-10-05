@@ -4,15 +4,51 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f82afc-d404-4291-bcc9-c8dbe0d6939c" name="Changes" comment="add: play / upgrades pages">
-      <change afterPath="$PROJECT_DIR$/static/regions/france.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/regions/test.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.svg" afterDir="false" />
+    <list default="true" id="73f82afc-d404-4291-bcc9-c8dbe0d6939c" name="Changes" comment="update: project">
+      <change afterPath="$PROJECT_DIR$/src/components/Dashboard.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Polygon.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Shop.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Upgrade.svelte" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/neighbor.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/region.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/upgrade.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/dto/upgrade.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/(protected)/play/+page.server.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/argent_coins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/france.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/gold_coins.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/icons/ChevronDown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/icons/Xmark.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile-prod" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile.prod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prisma/schema.prisma" beforeDir="false" afterPath="$PROJECT_DIR$/prisma/schema.prisma" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/Svg.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/Svg.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/InputField.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/InputField.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/PrimaryButton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/PrimaryButton.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/common/SecondaryButton.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/SecondaryButton.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hooks.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/hooks.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/helpers/form.helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/helpers/form.helper.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/models/payload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/payload.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/(auth)/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(auth)/+layout.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/(auth)/login/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(auth)/login/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/(protected)/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(protected)/+layout.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/(protected)/play/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(protected)/play/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/regions/rhone.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/(protected)/upgrades/+page.server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(protected)/upgrades/+page.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/(protected)/upgrades/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/(protected)/upgrades/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api/auth/login/+server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api/auth/login/+server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api/auth/register/+server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api/auth/register/+server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/api/upgrades/+server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api/upgrades/+server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/auth.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/upgrade.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/upgrade.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/regions/france.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/regions/test.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,24 +69,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/tonycava/climatix/static/fonts/Poppins",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "Shelf.Project.Settings",
-    "ts.external.directory.path": "/home/tonycava/climatix/node_modules/typescript/lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/tonycava/climatix/static/fonts/Poppins&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/tonycava/climatix/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/fonts/Poppins" />
@@ -60,6 +96,8 @@
       <recent name="$PROJECT_DIR$/src/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$/static/fonts" />
       <recent name="$PROJECT_DIR$/src/routes/(auth)" />
       <recent name="$PROJECT_DIR$/src/routes" />
     </key>
@@ -74,7 +112,14 @@
       <updated>1696245453502</updated>
       <workItem from="1696245454549" duration="2499000" />
       <workItem from="1696249484170" duration="344000" />
-      <workItem from="1696260693183" duration="28194000" />
+      <workItem from="1696260693183" duration="37847000" />
+      <workItem from="1696419487520" duration="7323000" />
+      <workItem from="1696489666433" duration="25021000" />
+      <workItem from="1696535982522" duration="292000" />
+      <workItem from="1696536285121" duration="4961000" />
+      <workItem from="1696541258859" duration="1164000" />
+      <workItem from="1696542434174" duration="3575000" />
+      <workItem from="1696546020368" duration="3325000" />
     </task>
     <task id="LOCAL-00001" summary="init: project">
       <option name="closed" value="true" />
@@ -116,11 +161,30 @@
       <option name="project" value="LOCAL" />
       <updated>1696334946330</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update: project">
+      <option name="closed" value="true" />
+      <created>1696403505691</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696403505691</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init: project" />
@@ -128,6 +192,7 @@
     <MESSAGE value="remove: some warning" />
     <MESSAGE value="add: navbar" />
     <MESSAGE value="add: play / upgrades pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: play / upgrades pages" />
+    <MESSAGE value="update: project" />
+    <option name="LAST_COMMIT_MESSAGE" value="update: project" />
   </component>
 </project>

@@ -11,11 +11,11 @@ export const handle: Handle = async ({ resolve, event }) => {
 		return resolve(event);
 	}
 
-
 	event.locals.user = {
 		id: payload.id,
 		name: payload.name,
 		email: payload.email,
+		coins: payload.coins,
 	};
 
 	return resolve(event);

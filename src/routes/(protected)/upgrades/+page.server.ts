@@ -18,5 +18,5 @@ export const load: PageServerLoad = async ({ cookies }) => {
 
 	return {
 		upgrades: response.data.data
-	}
+	};
 };

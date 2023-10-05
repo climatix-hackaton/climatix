@@ -11,11 +11,11 @@ export const POST: RequestHandler = async ({ request }) => {
 	const parsedBody = zodParse<RegisterDto>(body, registerDto);
 
 	if (!parsedBody.isValid) {
-		return responseCreator.createResponse('Invalid credentials', 400, parsedBody.message.message)
+		return responseCreator.createResponse('Invalid credentials', 400, parsedBody.message.message);
 	}
 
 	const userExists = await AuthService.getUserByEmail(body.email);
-	if (userExists) return responseCreator.createResponse('User already exists', 400)
+	if (userExists) return responseCreator.createResponse('User already exists', 400);
 
 	if (parsedBody.body.password !== parsedBody.body.verifyPassword) {
 		return responseCreator.createResponse('Passwords do not match', 400);
@@ -27,6 +27,6 @@ export const POST: RequestHandler = async ({ request }) => {
 		.createUser({ email: parsedBody.body.email, name: parsedBody.body.name, password: hashedPassword });
 
 
-	const token = signJWTToken({ id: user.id, email: user.email, name: user.name });
+	const token = signJWTToken({ id: user.id, email: user.email, name: user.name, coins: user.coins });
 	return responseCreator.createResponse('Registration successful', 200, { token });
 };

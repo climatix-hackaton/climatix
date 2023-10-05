@@ -11,5 +11,6 @@
 <InputField
   placeholder="123456"
   title="Password"
+  type="password"
   name={INPUT.PASSWORD}
 />

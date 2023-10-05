@@ -30,7 +30,8 @@ model Upgrade {
 
   name String
 
-  level Int @default(0)
+  level    Int @default(0)
+  maxLevel Int
 
   cost   Int
   User   User   @relation(fields: [userId], references: [id])

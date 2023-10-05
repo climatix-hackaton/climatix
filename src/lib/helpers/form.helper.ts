@@ -3,4 +3,6 @@ export enum INPUT {
 	NAME = 'name',
 	PASSWORD = 'password',
 	VERIFY_PASSWORD = 'verifyPassword',
+
+	COINS = 'coins',
 }

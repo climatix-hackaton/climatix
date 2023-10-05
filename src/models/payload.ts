@@ -12,18 +12,30 @@ export type RegisterBodyPayload = {
 	verifyPassword: string
 }
 
+export type Region = {
+	name: string;
+	population: number;
+	numberOfInfected: number;
+	numberOfDeath: number;
+	opacity: string;
+	percentDeath: number,
+	percentInfected: number
+};
+
 export type AuthResponseData = {
 	token: string
 }
 
 export type UpgradePayload = {
-	upgrades: Upgrade[]
+	userId: string
+	upgradeId: string
 }
 
 export type JWTPayload = {
 	id: string;
 	email: string;
 	name: string;
+	coins: number;
 }
 
 export type User = JWTPayload

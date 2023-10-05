@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex justify-center items-center h-full flex-col gap-6">
-  <span class="text-3xl text-secondary text-center font-poppins-bold">Climatix</span>
+  <span class="text-3xl text-center font-poppins-bold">Climatix</span>
   <div class="w-5/12 lg:w-3/12">
     <PrimaryButton
       on:click={() => goto('/play')}

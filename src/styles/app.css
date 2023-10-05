@@ -5,13 +5,13 @@
 @tailwind utilities;
 
 @layer base {
-
     html {
         min-height: 100vh;
     }
+
     :root {
-        --color-primary: #3D9B35;
-        --color-secondary: #333399;
+        --color-primary: #0b4f6c;
+        --color-secondary: #01baef;
     }
 }
 

@@ -24,7 +24,7 @@
 {/if}
 
 <div class="flex justify-center items-center h-screen flex-col gap-6">
-  <span class="text-3xl text-secondary text-center font-poppins-bold">Climatix</span>
+  <span class="text-3xl text-center font-poppins-bold">Climatix</span>
   <div class="p-8 rounded-lg w-11/12 sm:w-auto shadow-lg">
     <form
       action={`?/${data.title}`}

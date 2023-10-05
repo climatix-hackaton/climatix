@@ -1,0 +1,70 @@
+{
+  "Infectiousness": {
+    "0": {
+      "efficiency": 5
+    },
+    "1": {
+      "efficiency": 0.006
+    },
+    "2": {
+      "efficiency": 0.007
+    },
+    "3": {
+      "efficiency": 0.008
+    },
+    "4": {
+      "efficiency": 0.009
+    },
+    "5": {
+      "efficiency": 0.01
+    },
+    "6": {
+      "efficiency": 0.015
+    }
+  },
+  "Mortality": {
+    "0": {
+      "efficiency": 1
+    },
+    "1": {
+      "efficiency": 2
+    },
+    "2": {
+      "efficiency": 3
+    },
+    "3": {
+      "efficiency": 6
+    },
+    "4": {
+      "efficiency": 8
+    },
+    "5": {
+      "efficiency": 10
+    }
+  },
+  "ChanceOfSpreadToAdjacentRegions": {
+    "0": {
+      "efficiency": 1
+    },
+    "1": {
+      "efficiency": 3
+    },
+    "2": {
+      "efficiency": 5
+    },
+    "3": {
+      "efficiency": 10
+    }
+  },
+  "MosquitoesResistColderTemperatures": {
+    "0": {
+      "efficiency": 20
+    },
+    "1": {
+      "efficiency": 50
+    },
+    "2": {
+      "efficiency": 100
+    }
+  }
+}

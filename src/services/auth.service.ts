@@ -24,17 +24,22 @@ const createUser = async (payload: CreateUserPayload): Promise<User> => {
 				create: [
 					{
 						name: 'Infectiousness',
-						cost: 60,
+						cost: 20,
 						level: 0,
 					},
 					{
 						name: 'Mortality',
-						cost: 60,
+						cost: 30,
 						level: 0,
 					},
 					{
 						name: 'Chance of spread to adjacent regions',
-						cost: 60,
+						cost: 40,
+						level: 0,
+					},
+					{
+						name: 'Mosquitoes resist colder temperatures',
+						cost: 50,
 						level: 0,
 					}
 				]

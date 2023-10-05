@@ -23,6 +23,6 @@ export const POST: RequestHandler = async ({ request }) => {
 		return responseCreator.createResponse('Invalid credentials', 400);
 	}
 
-	const token = signJWTToken({ id: user.id, email: user.email, name: user.name });
+	const token = signJWTToken({ id: user.id, email: user.email, name: user.name, coins: user.coins });
 	return responseCreator.createResponse('Login successful', 200, { token });
 };
