@@ -9,7 +9,6 @@
 	import { neighborsRegions } from '../../../data/neighbor.json';
 	import { ChanceOfSpreadToAdjacentRegions, Infectiousness, Mortality, MosquitoesResistColderTemperatures } from '../../../data/upgrade.json';
 	import type { Region } from '@models/payload';
-	import { goto } from '$app/navigation';
 	import SecondaryButton from '@components/common/SecondaryButton.svelte';
 	import { INPUT } from '$lib/helpers/form.helper';
 	import { applyAction, enhance } from '$app/forms';

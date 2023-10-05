@@ -83,14 +83,14 @@
           {#each new Array(upgrade.maxLevel) as _, i}
             <li class="h-8 w-8 border-2 border- {upgrade.level > i && 'bg-red-600'}"></li>
           {/each}
-          <button
-            disabled={numberOfCoins < upgrade.cost || upgrade.level === upgrade.maxLevel}
-            on:click={() => onUpgrade(upgrade, "up")}
-            class="w-8 h-8 border-2 text-center text-lg rounded"
-          >
-            +
-          </button>
         </ul>
+        <button
+          disabled={numberOfCoins < upgrade.cost || upgrade.level === upgrade.maxLevel}
+          on:click={() => onUpgrade(upgrade, "up")}
+          class="w-8 h-8 border-2 text-center text-lg rounded"
+        >
+          +
+        </button>
       </div>
 
       <div class="flex gap-2">

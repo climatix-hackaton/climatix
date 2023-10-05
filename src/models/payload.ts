@@ -1,5 +1,3 @@
-import type { Upgrade } from '@prisma/client';
-
 export type LoginBodyPayload = {
 	email: string,
 	password: string

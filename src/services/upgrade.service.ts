@@ -2,7 +2,6 @@ import prisma from '$lib/server/db';
 import axios, { type AxiosResponse } from 'axios';
 import { getBaseURL } from '$lib';
 import type { ClimatixResponseData } from '$lib/server/response';
-import type { UpgradePayload } from '@models/payload';
 import type { Upgrade } from '@prisma/client';
 
 const getUpgradesByUserId = (userId: string) => {

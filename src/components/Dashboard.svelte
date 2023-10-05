@@ -4,7 +4,7 @@
 	import Svg from '@components/common/Svg.svelte';
 	import { kebabToPascalCase } from '$lib';
 
-	export let dataDashboard: any;
+	export let dataDashboard: Region;
 
 	export let handleClose: () => void;
 </script>

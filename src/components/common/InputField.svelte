@@ -1,6 +1,4 @@
 <script lang="ts">
-	import exp from 'constants';
-
 	export let title: string;
 	export let value = '';
 
