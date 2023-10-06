@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f82afc-d404-4291-bcc9-c8dbe0d6939c" name="Changes" comment="add: game / upgrade shop">
-      <change beforePath="$PROJECT_DIR$/src/components/Dashboard.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/common/InputField.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/InputField.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/models/payload.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/models/payload.ts" afterDir="false" />
-    </list>
+    <list default="true" id="73f82afc-d404-4291-bcc9-c8dbe0d6939c" name="Changes" comment="remove: some warning" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +74,7 @@
       <workItem from="1696536285121" duration="4961000" />
       <workItem from="1696541258859" duration="1164000" />
       <workItem from="1696542434174" duration="3575000" />
-      <workItem from="1696546020368" duration="3638000" />
+      <workItem from="1696546020368" duration="4433000" />
     </task>
     <task id="LOCAL-00001" summary="init: project">
       <option name="closed" value="true" />
@@ -136,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696549570236</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="remove: some warning">
+      <option name="closed" value="true" />
+      <created>1696549717360</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696549717360</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,11 +160,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init: project" />
     <MESSAGE value="add: register / login / tailwind / locals / user store" />
-    <MESSAGE value="remove: some warning" />
     <MESSAGE value="add: navbar" />
     <MESSAGE value="add: play / upgrades pages" />
     <MESSAGE value="update: project" />
     <MESSAGE value="add: game / upgrade shop" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: game / upgrade shop" />
+    <MESSAGE value="remove: some warning" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove: some warning" />
   </component>
 </project>

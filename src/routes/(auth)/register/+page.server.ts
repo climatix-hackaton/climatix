@@ -3,7 +3,7 @@ import { fail, redirect } from '@sveltejs/kit';
 import { COOKEYS, defaultCookiesOptions } from '$lib/helpers/cookie.helper';
 import AuthService from '@services/auth.service';
 import type { AxiosError } from 'axios';
-import type { ClimatixResponse, ClimatixResponseData } from '$lib/server/response';
+import type { ClimatixResponseData } from '$lib/server/response';
 import type { RegisterBodyPayload } from '@models/payload';
 
 const register: Action = async ({ request, cookies }) => {
