@@ -16,10 +16,12 @@
 <InputField
   placeholder="123456"
   title="Password"
+  type="password"
   name={INPUT.PASSWORD}
 />
 <InputField
   placeholder="123456"
   title="Verify password"
+  type="password"
   name={INPUT.VERIFY_PASSWORD}
 />
