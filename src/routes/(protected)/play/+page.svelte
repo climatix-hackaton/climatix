@@ -319,6 +319,3 @@
 </div>
 
 <Shop bind:numberOfCoins />
-
-
-

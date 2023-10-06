@@ -42,7 +42,7 @@
           <span>{dataDashboard.percentInfected}%</span>
         </li>
         <li class="flex justify-between">
-          <span>Infected rate</span>
+          <span>Death rate</span>
           <span>{dataDashboard.percentDeath}%</span>
         </li>
       </ul>
